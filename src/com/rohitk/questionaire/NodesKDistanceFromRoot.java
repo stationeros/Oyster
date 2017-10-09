@@ -1,16 +1,5 @@
 package com.rohitk.questionaire;
 
-//Declaration of a generic node.
-class TreeNode<T> {
-	T data;
-	TreeNode left;
-	TreeNode right;
-
-	public TreeNode(T data) {
-		this.data = data;
-	}
-}
-
 // Class to print all the nodes which are at k distance from root node in a
 // binary tree.
 public class NodesKDistanceFromRoot {
